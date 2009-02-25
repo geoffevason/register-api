@@ -1,0 +1,19 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <NewAccount> 
+      <StatusCustomerInfo>Successful</StatusCustomerInfo> 
+      <PartyID>{8D504DD5-C773-41C4-83F6-4495CA479103}</PartyID> 
+      <Account>154-dz-5567</Account> 
+      <sLoginPass> 
+         91DDFEF7E0E7F6A9DDFEF7E0E7F6A9A5BDA0A6BDA0A2A2A0B2A5A8A2A3A8A2AAB2C2DF 
+      </sLoginPass> 
+   </NewAccount> 
+   <Command>CREATEACCOUNT</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>ResellerTest</Server> 
+   <Site>rcom</Site> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA [  ] ]> 
+   </debug> 
+</interface-response>

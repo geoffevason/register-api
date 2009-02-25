@@ -1,0 +1,14 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <OrderID>156094996</OrderID> 
+   <RRPCode>200</RRPCode> 
+   <RRPText>Command completed successfully - 156094996</RRPText> 
+   <Command>PURCHASE</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>Dev Workstation</Server> 
+   <Site>rcom</Site> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA  [  ] ]> 
+   </debug> 
+</interface-response> 

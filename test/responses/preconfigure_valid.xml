@@ -1,0 +1,30 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <PreConfigBillingInfo> 
+      <BillingOrganizationName>Partner Domains Inc.</BillingOrganizationName> 
+      <BillingJobTitle>President</BillingJobTitle> 
+      <BillingFirstName>John</BillingFirstName> 
+      <BillingLastName>Doe</BillingLastName> 
+      <BillingAddress1>111 Main St.</BillingAddress1> 
+      <BillingAddress2 /> 
+      <BillingCity>Hometown</BillingCity> 
+      <BillingStateProvince>NY</BillingStateProvince> 
+      <BillingStateProvinceChoice>S</BillingStateProvinceChoice> 
+      <BillingPostalCode>99999</BillingPostalCode> 
+      <BillingCountry>United States</BillingCountry> 
+      <BillingPhone>5555555555</BillingPhone> 
+      <BillingFax>5555555556</BillingFax> 
+      <BillingEmailAddress>john.doe@partnerdomain.com</BillingEmailAddress> 
+   </PreConfigBillingInfo> 
+   <PreConfigSuccess>2</PreConfigSuccess> 
+   <Command>PRECONFIGURE</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>RESELLERTEST</Server> 
+   <Site>rcom</Site> 
+   <IsLockable>False</IsLockable> 
+   <IsRealTimeTLD>True</IsRealTimeTLD> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA[ ] ]> 
+   </debug> 
+</interface-response> 

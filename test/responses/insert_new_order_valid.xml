@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <OrderID>156062745</OrderID> 
+   <ProdType10>10</ProdType10> 
+   <Command>INSERTNEWORDER</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>ResellerTest</Server> 
+   <Site>rcom</Site> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA[   ] ]> 
+   </debug> 
+</interface-response> 

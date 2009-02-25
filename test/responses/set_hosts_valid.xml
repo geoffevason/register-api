@@ -1,0 +1,15 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <DomainRRP>E</DomainRRP> 
+   <RegistrarHold>False</RegistrarHold> 
+   <Command>SETHOSTS</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>Dev Workstation</Server> 
+   <Site>rcom</Site> 
+   <IsLockable>True</IsLockable> 
+   <IsRealTimeTLD>True</IsRealTimeTLD> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA[   ] ]> 
+   </debug> 
+</interface-response> 

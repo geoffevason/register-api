@@ -1,0 +1,34 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <GetCartContent> 
+      <item> 
+         <ItemID>393955</ItemID> 
+         <Description>Register</Description> 
+         <ProdType>10</ProdType> 
+         <Years>1</Years> 
+         <NameID>152556457</NameID> 
+         <Name>partnerdomain.us</Name> 
+         <StatusID>I</StatusID> 
+         <ItemPrice>10.00</ItemPrice> 
+         <Renew>0</Renew> 
+         <cd> 
+            <NeedsConfig>1</NeedsConfig> 
+            <IsMailPak>0</IsMailPak> 
+            <ShowWPPSLink>1</ShowWPPSLink> 
+            <p> 
+               <QtyDesc>Year(s)</QtyDesc> 
+               <SubItem>0</SubItem> 
+               <FreeTrial>0</FreeTrial> 
+            </p> 
+         </cd> 
+      </item> 
+   </GetCartContent> 
+   <Command>GETCARTCONTENT</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>RESELLERTEST</Server> 
+   <Site>rcom</Site> 
+   <IsLockable>True</IsLockable> 
+   <IsRealTimeTLD>True</IsRealTimeTLD> 
+   <Done>true</Done> 
+   <debug><![CDATA [  ] ]></debug> 
+</interface-response> 

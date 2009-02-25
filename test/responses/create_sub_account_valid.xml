@@ -1,0 +1,16 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <NewAccount> 
+      <StatusCustomerInfo>Successful</StatusCustomerInfo> 
+      <PartyID>{B301E3A9-1BFF-4600-9B2D-D214C29325A9}</PartyID> 
+      <Account>661-zw-1374</Account> 
+   </NewAccount> 
+   <Command>CREATESUBACCOUNT</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>ResellerTest</Server> 
+   <Site>rcom</Site> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA  [  ] ]> 
+   </debug> 
+</interface-response> 

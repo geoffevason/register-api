@@ -1,0 +1,20 @@
+development:
+  uid: "starband"
+  password: "654321"
+  use_https: false
+  register_api_url:  "partnertest.rcomexpress.com"
+  use_mocks: false
+
+test:
+  uid: "starband"
+  password: "654321"
+  use_https: false
+  register_api_url:  "partnertest.rcomexpress.com"
+  use_mocks: false
+
+production:
+  uid: 
+  password: 
+  use_https: true
+  register_api_url:  "partner.rcomexpress.com"
+  use_mocks: false

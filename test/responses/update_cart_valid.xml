@@ -1,0 +1,11 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <Command>UPDATECART</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>Dev Workstation</Server> 
+   <Site>rcom</Site> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA[  ] ]> 
+   </debug> 
+</interface-response> 

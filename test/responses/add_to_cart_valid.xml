@@ -1,0 +1,15 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <ItemName>partnerdomain.com</ItemName> 
+   <ItemId /> 
+   <Price>29.95</Price> 
+   <ItemAdded>True</ItemAdded> 
+   <Command>ADDTOCART</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>ResellerTest</Server> 
+   <Site>rcom</Site> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA [  ] ]> 
+   </debug> 
+</interface-response> 

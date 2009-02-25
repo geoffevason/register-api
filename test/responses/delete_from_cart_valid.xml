@@ -1,0 +1,12 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <ItemDeleted>True</ItemDeleted> 
+   <Command>DELETEFROMCART</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>ResellerTest</Server> 
+   <Site>rcom</Site> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA [  ] ]> 
+   </debug> 
+</interface-response> 

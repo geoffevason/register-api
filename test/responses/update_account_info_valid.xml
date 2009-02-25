@@ -1,0 +1,47 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <StatusEditContact>Successful</StatusEditContact> 
+   <OrganizationName>Partner Domains Inc.</OrganizationName> 
+   <JobTitle>President</JobTitle> 
+   <Fname>John</Fname> 
+   <Lname>Doe</Lname> 
+   <Address1>111 Main St.</Address1> 
+   <Address2 /> 
+   <City>Hometown</City> 
+   <StateProvince>NY</StateProvince> 
+   <StateProvinceChoice>S</StateProvinceChoice> 
+   <PostalCode>99999</PostalCode> 
+   <Country>US</Country> 
+   <Phone>5555555555</Phone> 
+   <Fax>5555555556</Fax> 
+   <EmailAddress>john.doe@partnerdomain.com</EmailAddress> 
+   <EmailAddress_Contact>jane.doe@partnerdomain.com</EmailAddress_Contact> 
+   <URL /> 
+   <GetAccountInfo> 
+      <UserID>rcompartnerid</UserID> 
+      <Password>rcompartnerpw</Password> 
+      <AuthQuestionType>smaiden</AuthQuestionType> 
+      <AuthQuestionAnswer>Jones</AuthQuestionAnswer> 
+      <Account>217-no-0647</Account> 
+      <Reseller>True</Reseller> 
+      <AcceptTerms>True</AcceptTerms> 
+   </GetAccountInfo> 
+   <GetCustomerPaymentInfo> 
+      <CCName /> 
+      <CCNumber /> 
+      <CCType /> 
+      <CCMonth /> 
+      <CCYear /> 
+   </GetCustomerPaymentInfo>
+   <GetCustomerPreferences> 
+      <DefPeriod /> 
+   </GetCustomerPreferences> 
+   <Command>UPDATEACCOUNTINFO</Command> 
+   <ErrCount>0</ErrCount> 
+   <Server>Dev Workstation</Server> 
+   <Site>rcom</Site> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA[   ] ]> 
+   </debug> 
+</interface-response> 

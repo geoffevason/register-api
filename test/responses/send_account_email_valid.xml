@@ -1,0 +1,16 @@
+<interface-response> 
+   <Command>SENDACCOUNTEMAIL</Command> 
+   <Language>eng</Language> 
+   <ErrCount>0</ErrCount> 
+   <ResponseCount>0</ResponseCount> 
+   <MinPeriod/> 
+   <MaxPeriod>10</MaxPeriod> 
+   <Server>RESELLERTEST</Server> 
+   <Site>rcom</Site> 
+   <IsLockable/> 
+   <IsRealTimeTLD/> 
+   <TimeDifference>+0.00</TimeDifference> 
+   <ExecTime>0.078125</ExecTime> 
+   <Done>true</Done> 
+   <debug></debug> 
+</interface-response> 

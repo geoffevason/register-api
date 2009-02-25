@@ -1,0 +1,29 @@
+<?xml version="1.0" ?> 
+<interface-response> 
+   <DomainName>unusualtvname.tv</DomainName> 
+   <PremiumName> 
+      <IsPremiumName>False</IsPremiumName> 
+      <PremiumPrice /> 
+      <PremiumAboveThresholdPrice>False</PremiumAboveThresholdPrice> 
+   </PremiumName> 
+   <RRPCode>211</RRPCode> 
+   <RRPText>Domain not available</RRPText> 
+   <AuctionDate /> 
+   <AuctionID /> 
+   <Command>CHECK</Command> 
+   <Language>eng</Language> 
+   <ErrCount>0</ErrCount> 
+   <ResponseCount>0</ResponseCount> 
+   <MinPeriod>1</MinPeriod> 
+   <MaxPeriod>10</MaxPeriod> 
+   <Server>Reseller4</Server> 
+   <Site>rcom</Site> 
+   <IsLockable>True</IsLockable> 
+   <IsRealTimeTLD>True</IsRealTimeTLD> 
+   <TimeDifference>+03.00</TimeDifference> 
+   <ExecTime>0.172</ExecTime> 
+   <Done>true</Done> 
+   <debug> 
+      <![CDATA[  ]]> 
+   </debug> 
+</interface-response> 

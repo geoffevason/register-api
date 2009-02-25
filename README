@@ -1,0 +1,66 @@
+======================
+Register.com API v0.01
+======================
+
+Overview
+--------
+
+This is a ruby interface to Register.com's reseller partner API.  For documentation on the API and to get set up as a reseller contact Register.com directly.
+
+If you have an API enabled reseller account you can check if a domain name is available, get alternate domain name suggestions, register/purchase a domain name, set up sub accounts, set up DNS entries, etc.    
+
+Installation
+------------
+
+script/plugin install git://github.com/geoffevason/register-api.git
+
+Preparation
+-----------
+
+Make sure you have a register.yml file in your RAILS_ROOT/config dir.  The install should copy a skeleton file there
+
+You'll also need to have signed up for the Regsiter.com partner program and for most calls your IP address needs to be whitelisted.
+
+Requires
+--------
+
+This plugin requires net/http(s) libraries and the hpricot gem. The API calls return a hpricot xml object.
+
+API Usage
+---------
+
+You can call any of the commands in the Register.com API like so
+
+Register::Api::Command(options)
+
+Here is an example to check if the domain name 'google.com' is available:
+
+xml = Register::Api::Check(:tld => 'com', :sld => 'google')
+if (xml/'RRPCode').inner_text == "210"
+  return true
+else
+  return false
+end
+rescue RegisterApiError => e
+  # Do something useful with the error
+rescue
+  raise UnknownError, "Unknown error for Register.com API"
+
+
+Wrapper Usage
+-------------
+
+If you intend to resell domains to your users (and hence create register.com accounts for them) you can use the methods and classes built into this API.  These essentially handle the uids and passwords for you and makes it feel a little more 'railsy'
+
+# Check a domain name
+Register::check_domain(:tld => 'com', :sld => 'google')
+
+# Create a sub account
+account = Register::create_account(account parmas)
+
+# Add the domain to that sub accounts params
+account.add_to_cart(params)
+# preconfigure the purchase 
+account.preconfigure(params)
+# aka - checkout
+account.insert_new_order(params)
