@@ -24,10 +24,11 @@ module Register
       }.merge(options)
       
       path = "/interface.asp"
-      data = "Command=#{command}&#{options.to_url_params}"
+      data = "Command=#{command}&#{params_to_query_string(options)}"
       headers = {'Content-Type'=> 'application/x-www-form-urlencoded'}
  
       Register::log! "Posting: #{command}"
+      Register::log! "#{path}?#{data}"
 
       resp, data = http.post(path, data, headers)
       doc = Hpricot::XML(data)
@@ -63,16 +64,13 @@ module Register
       else
         self.call(command, *args)
       end
+    end
+    
+    def self.params_to_query_string(args={})
+      args.map { |k,v| "%s=%s" % [URI.encode(k.to_s), URI.encode(v.to_s)] }.join('&') unless args.blank?
     end  
   end
 end
 
-class Hash
-  def to_url_params
-    elements = []
-    keys.size.times do |i|
-      elements << "#{keys[i]}=#{values[i]}"
-    end
-    elements.join('&')
-  end
-end
+
+

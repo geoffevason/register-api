@@ -1,7 +1,5 @@
 require 'ftools'
 
-puts IO.read(File.join(File.dirname(__FILE__), 'README'))
-
 dest_config_file = File.expand_path("#{File.dirname(__FILE__)}/../../../config/register.yml")
 src_config_file = "#{File.dirname(__FILE__)}/register.yml"
 
