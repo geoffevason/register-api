@@ -28,7 +28,6 @@ module Register
       headers = {'Content-Type'=> 'application/x-www-form-urlencoded'}
  
       Register::log! "Posting: #{command}"
-      Register::log! "#{path}?#{data}"
 
       resp, data = http.post(path, data, headers)
       doc = Hpricot::XML(data)
